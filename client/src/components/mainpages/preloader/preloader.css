@@ -1,0 +1,69 @@
+.preloader{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10000;
+    overflow: hidden;
+}
+.preloader-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Vector{
+    animation: animateOne 0.8s linear 1s infinite alternate;
+}
+.Component_3{
+    animation: animateThree -0.5s linear 0.5s infinite alternate;
+
+}
+.Component_2{
+    animation: animateThree -0.5s linear 0.5s infinite alternate;
+
+}
+.Component_1{
+    animation: animateTwo 0.8s linear 1s infinite alternate;    
+}
+@keyframes animateOne {
+    0%{
+        opacity: 0;
+        fill: #ffffff;
+    }
+    100%{
+        opacity: 1;
+        fill: black;
+    }
+}
+@keyframes animateTwo {
+    0%{
+        opacity: 0;
+        fill: #ffffff;
+    }
+    100%{
+        opacity: 1;
+        fill: black;
+    }
+}
+@keyframes animateThree {
+    0%{
+        opacity: 0;
+        r: 0;
+        cx: 10;
+        cy: -30;
+    }
+    50%{
+        opacity: 1;
+        cx: 25;
+        cy: 25;
+    }
+    100%{
+        opacity: 1;
+        opacity: 0.5;
+        r: 25;
+        cx: 25;
+        cy: 25;
+    }
+}

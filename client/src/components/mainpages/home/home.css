@@ -1,0 +1,111 @@
+.home{
+    height: 1500px;
+}
+.carousel img{
+    width: 100%;
+    height: 600px;
+    object-fit:cover;
+    
+}
+.brand{
+    margin: 20px;
+}
+.brand .title{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    padding: 20px;
+    color: #cb6805;
+    font-weight: 600;
+}
+.images{
+    margin: 20px;
+    padding-bottom: 100px;
+}
+.images img{
+    margin: 20px;
+    margin-left: 70px;
+}
+.shop{
+    background-color: #ececec;
+    height: 500px;
+}
+.shop .title1{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;
+    padding: 50px;
+    font-weight: 600;
+    color: #343434;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+    margin-top: -15px;
+}
+.icons .icon1{
+    margin:50px;
+    
+}
+
+@media (max-width: 900px) {
+    .carousel img{
+        width: 100%;
+        height: 300px;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .images img{
+        width: 100px;
+    }
+    .brand .title{
+        font-size: 25px;
+    }
+    .shop{
+        height: 800px;
+    }
+    .shop .title1{
+        font-size: 25px;
+    }
+    .icons .icon1{
+        margin:30px;
+        
+    }
+}
+@media (max-width: 660px) {
+    .carousel img{
+        width: 100%;
+        height: 250px;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .images img{
+        width: 80px;
+    }
+    .brand{
+        height: 350px;
+    }
+    .brand .title{
+        font-size: 25px;
+    }
+    .shop{
+        height: 800px;
+    }
+    .icons .icon1 img{
+        width:70px;    
+    }
+    .icons .icon1 p{
+        font-size: 13px;
+    }
+}

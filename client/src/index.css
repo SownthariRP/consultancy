@@ -1,0 +1,27 @@
+
+/* ------------------- Home ----------------- */
+@import url("./components/mainpages/home/home.css");
+
+/* --------------- Header ------------*/
+@import url("./components/headers/header.css");
+
+/* --------------- About ------------*/
+@import url("./components/mainpages/about/about.css");
+
+
+
+/* @import url("./components/mainpages/products/products.css"); */
+
+
+@import url("./components/mainpages/detailProduct/detailProduct.css");
+
+
+@import url("./components/mainpages/cart/cart.css");
+
+
+@import url("./components/mainpages/categories/categories.css");
+
+
+@import url("./components/mainpages/createProduct/createProduct.css");
+
+@import url("./components/mainpages/order/Order.css");

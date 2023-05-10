@@ -115,7 +115,7 @@ const CreateProduct = () => {
                 })
             }
             setCallback(!callback)
-            history("/product")
+            history("/products")
 
         } catch (err) {
             alert(err.response.data.msg)

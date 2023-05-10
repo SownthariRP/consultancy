@@ -53,7 +53,7 @@ body {
   text-decoration: none;
 }
 
-.nav-elements ul a.active {
+.nav-elements ul a:hover {
   color: #cb6805;
   font-weight: 700;
   position: relative;
@@ -66,7 +66,7 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #574c4c;
+  
 }
 .info{
   display: flex;
@@ -103,6 +103,10 @@ body {
   margin-right: 10px;
   padding-right: 10px;
   border-right: 2px solid black;
+}
+
+.cart-icon{
+  margin-left: 35px;
 }
 @media (max-width: 1355px) {
   .socialmedia{

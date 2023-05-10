@@ -77,7 +77,6 @@ const Cart = () => {
                          <div className="box-detail-cart">
                             <h2>{product.title}</h2>
                             <span>Rs {product.price * product.quantity}</span> 
-                            <p>{product.description}</p>
 
                             <div className="amount">
                                 <button onClick={() => decrement(product._id)}> - </button>

@@ -83,6 +83,7 @@
     font-weight: 600;
     padding: 6px;  
     margin-left: 5px;
+    text-decoration: none;
 }
 #btn_buy{
     background: #555;
@@ -90,7 +91,7 @@
     border-radius: 5px;
 }
 #btn_view{
-    background: #FC427B;
+    background: #cb6805;
     margin-right: 5px;
     border-radius: 5px;
 }

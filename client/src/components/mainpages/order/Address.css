@@ -30,7 +30,7 @@ body{
   font-size: 35px;
   font-weight: 400;
   text-align: center;
-  color:#912155;
+  color:#cb6805;
 }
 
 .container form{
@@ -57,7 +57,7 @@ form .data input{
 }
 
 form .data input:focus{
-  border-color: #912155;
+  border-color: #cb6805;
   border-bottom-width: 2px;
 }
 
@@ -66,7 +66,7 @@ form .forgot-pass{
   margin-top: -8px;
 }
 form .forgot-pass a{
-  color: #912155;
+  color: #cb6805;
   text-decoration: none;
 }
 form .forgot-pass a:hover{
@@ -85,7 +85,7 @@ form .btn1 button{
   background: none;
   border: none;
   color: #fff; 
-   background:#912155;
+   background:#cb6805;
    font-size: 18px;
    font-weight: 500;
    text-transform: uppercase;
@@ -98,7 +98,7 @@ form .signup-link{
 }
 
 form .signup-link a{
-  color: #912155;
+  color: #cb6805;
   text-decoration: none;
 }
 form .signup-link a:hover{
@@ -133,7 +133,7 @@ nav .menu a{
   margin:10px 10px ;
   text-decoration: none;
   font-size:18px;
-  color: #912155;
+  color: #cb6805;
 }
 
 nav .menu a:hover{

@@ -4,14 +4,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-items: center;
-    margin: 20px 0;
+    margin: 20px;
 }
 /* ------------- Product Item  ------------*/
 @import url("../utils/productitem/productitem.css");
 
-@import url("../Slider/images.css");
 
 .delete-all {
+    padding-right: 80px;
     text-align: right;
     margin: 20px;
 }
@@ -27,13 +27,19 @@
 
 }
 .delete-all button{
-    border: 1px solid #912155;
+    background-color: #cb6805;
     padding: 10px 25px;
-    color: #912155;
-    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
 }
 
 /* ----------------- Filters Menu ----------------- */
+.filter {
+    padding: 0 100px;
+}
+
 .filter_menu{
     width: 100%;
     min-height: 40px;

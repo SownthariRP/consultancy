@@ -37,7 +37,7 @@ const DetailProduct = ({pro,deleteProduct}) =>{
             </div>
 
             <div>
-                <h2>Related Books</h2>
+                <h2 className="related">Related Products</h2>
                 <div className="products">
                     {
                         products.map(product =>{

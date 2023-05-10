@@ -22,7 +22,7 @@
 }
 .detail-cart .box-detail-cart h2{
     font-size: 1.5rem;
-    color: #912155;
+    color: #cb6805;
     padding-top: 10px;
 }
 .detail-cart .box-detail-cart span{
@@ -38,7 +38,7 @@
 }
 
 .detail-cart .box-detail-cart .amount span{
-    color: #FC427B;
+    color: #cb6805;
     padding: 0 15px;
     padding-top: 10px;
 }
@@ -54,7 +54,7 @@
     font-weight: 900;
     cursor: pointer;
     font-size: 1rem;
-    background-color: #FC427B;
+    background-color: #cb6805;
     width: 100px;
     height: 30px;
     align-items: center;
@@ -72,12 +72,12 @@
 }
 
 .total h3{
-    color: #FC427B;   
+    color: #cb6805;   
 }
 .buy{
-    border: 1px solid #FC427B;
+    border: 1px solid #cb6805;
     border-radius: 5px;
-    background-color: #FC427B;
+    background-color: #cb6805;
     color: aliceblue;
     padding: 5px 10px;
     margin: 5px;

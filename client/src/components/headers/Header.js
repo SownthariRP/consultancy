@@ -8,7 +8,7 @@ import Instagram from './icon/instagram.svg'
 import Menu from './icon/menu.png'
 import Logo from './icon/logo3.png'
 import './header.css'
-import { Link } from 'react-router-dom'
+import Cart from './icon/cart.svg'
 import axios from 'axios'
 
 const Header = () => {
@@ -83,13 +83,13 @@ return (
             <NavLink to="/">{isAdmin ? '':"Home"}</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about">{isAdmin ? '':"About"}</NavLink>
           </li>
           <li>
-            <NavLink to="/product">Products</NavLink>
+            <NavLink to="/products">Products</NavLink>
           </li>
           <li>
-            <NavLink to="/pricing">Pricing</NavLink>
+            <NavLink to="/quotation">Quotation</NavLink>
           </li>
           <li>
             <NavLink to="/contact">{isAdmin ? '':"Contact"}</NavLink>
@@ -98,17 +98,17 @@ return (
                 {
                     isLogged ? loggedRouter() : <li><NavLink to="/login">Login</NavLink></li>
                 }
-
-        </ul>
-        {/* {
+                {
                 isAdmin ? '' 
                 :<div className="cart-icon">
-                    <span>{cart.length}</span>
-                    <Link to="/cart">
+        
+                    <NavLink to="/cart">
                         Cart
-                    </Link>
+                    </NavLink>
                 </div>
-            } */}
+            }
+        </ul>
+        
       </div>
     </div>
   </nav>

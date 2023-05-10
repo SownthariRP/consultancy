@@ -16,6 +16,8 @@ function Filters() {
     }
 
     return (
+        <div className='filter'>
+
         <div className="filter_menu">
             <div className="row">
                 <span>Filters: </span>
@@ -45,6 +47,7 @@ function Filters() {
                 </select>
             </div>
 
+        </div>
         </div>
     )
 }

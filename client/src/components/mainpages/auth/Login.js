@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import axios from "axios";
+import bg from './bg1.jpg'
 
 const Login = () => {
     const [user, setUser] = useState({
@@ -26,10 +27,11 @@ const Login = () => {
     }
     return (
 
-        <div className="login"> 
-
-            <div class="text">User Login</div>
-            <form onSubmit={loginSubmit}>
+        <div className="register"> 
+        <div className="col-1">
+            <h2>Login</h2>
+            <span>Welcome again!</span>
+            <form id = "form" className='flex flex-col' onSubmit={loginSubmit}>
 
                 <div class="data">
                     <input type="email" name="email" required 
@@ -45,11 +47,18 @@ const Login = () => {
 
                 </div>
                 <div class="signup-link">
-                    Not a member? <Link to={"/register"}>Signup now </Link>
+                    Not a member? <Link to={"/register"}><span className="sign">Signup now</span> </Link>
                 </div>
             </form>
+            </div>
+            <div className="col-2">
+                <img src={bg}></img>
+            </div>
         </div>
+            
+            
     )
 }
 
 export default Login;
+

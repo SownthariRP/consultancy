@@ -28,7 +28,7 @@
     top: 0;
     left: 0;
     background: white;
-    color: #FC427B;
+    color: #cb6805;
     font-size: 17rem;
     text-align: center;
     cursor: pointer;
@@ -58,7 +58,7 @@
     padding: 6px 10px;
     cursor: pointer;
     font-weight: 900;
-    color: #FC427B;
+    color: #cb6805;
 }
 .create_product form{
     max-width: 500px;
@@ -74,12 +74,12 @@
     width: 100%;
     min-height: 40px;
     padding: 0 5px;
-    border: 2px solid #FC427B ;
+    border: 2px solid #cb6805 ;
 }
 .create_product form button{
     width: 200px;
     height: 40px;
-    background: #FC427B;
+    background: #cb6805;
     color: white;
     text-transform: uppercase;
     font-weight: 900;

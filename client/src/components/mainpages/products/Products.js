@@ -4,6 +4,7 @@ import ProductItem from "../utils/productitem/ProductItem";
 import axios from 'axios';
 import Filters from './Filters';
 import LoadMore from "./LoadMore";
+import './products.css'
 
 
 const Products = () => {

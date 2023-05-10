@@ -12,6 +12,7 @@ import Home from './home/Home';
 import Address from './order/Address';
 import Order from './order/Order';
 import About from './about/About';
+import Contact from './contact/Contact';
 
 import { GlobalState } from '../../GlobalState';
 const Pages = () => {
@@ -22,7 +23,7 @@ const Pages = () => {
       <div>
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/product" exact element={<Products />} />
+          <Route path="/products" exact element={<Products />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/detail/:id" exact element={<DetailProduct />} />
           <Route path="/login" exact element={isLogged ? <NotFound /> : <Login />} />
@@ -35,6 +36,7 @@ const Pages = () => {
           <Route path="/cart" exact element={<Cart />} />
           <Route path="/address" exact element={<Address />} />
           <Route path="/order" exact element={<Order />} />
+          <Route path="/contact" exact element={<Contact />} />
 
           <Route path="*" exact element={<NotFound />} />
        </Routes>

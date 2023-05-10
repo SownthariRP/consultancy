@@ -25,7 +25,7 @@
     align-items: center;
 }
 .box-detail .row h2{
-    color: #912155;
+    color: #cb6805;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -36,9 +36,10 @@
 .box-detail p{
     line-height: 1.5;
     margin: 10px 0;
+    font-size: 14px;
 }
 .box-detail .cart{
-    background: #FC427B;
+    background: #cb6805; 
     color: white;
     margin-top: 10px;
     padding: 10px 25px;
@@ -49,4 +50,7 @@
 .box-detail h6{
     font-weight: 200;
     line-height: 1.5;
+}
+.related {
+    margin-left: 40px;
 }
